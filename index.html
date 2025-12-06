@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+        }
+        header {
+            background: #0066cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #0227a1;
+            padding: 10px;
+            text-align:center;
+        }
+         nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight:bold;
+        }
+        nav a:hover{
+            color:black;
+        }
+        .container {
+            padding: 20px;
+            text-align:center;
+        }
+        h2 {
+            color: #f5f5f5;
+        }
+        .profile-img {
+            width: 150px;
+            border-radius: 10px;
+            display:block;
+            margin:10px auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #444;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background: #003f7f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        form input, form text area {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #888;
+            border-radius: 4px;
+        }
+        form button {
+            background: #0066cc;
+            color: white;
+            border: square;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        form button:hover {
+            color:white;
+            background:#081b5e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <h2>Electrical Engineering Student</h2>
+        <p>Created by:Sachi Jagdish Kapase</p>
+    </header>
+    <nav>
+        <a href="About.html">About</a>
+        <a href="Education.html">Education</a>
+        <a href="Skills.html">Skills</a>
+        <a href="Achievements.html">Achievements</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+    <div class="container">
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="Sachi Photo.jpg" class="profile-img"alt="Profile Photo">
+            <p>Hello! I am Sachi Kapase,<br>
+             This website is created as part of my CSS assignment.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Course</th>
+                    <th>Institute</th>
+                </tr>
+                <tr>
+                    <td>2025–26</td>
+                    <td>FY Electrical Engineering</td>
+                    <td>Sanjivani College of Engineering</td>
+                </tr>
+                <tr>
+                    <td>2024-25</td>
+                    <td>HSC</td>
+                    <td>S.S.G.M. College</td>
+                </tr>
+                <tr>
+                    <td>2022-23</td>
+                    <td>SSC</td>
+                    <td>Dr.C.M Mehta Kanya Vidya Mandir</td>
+            </table>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>C Programming</li>
+                <li>Basic Python</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form>
+                <label>Name:Sachi Jagdish Kapase</lable><br>
+                <label>Email:
+                <a href="https://www.sachikapase1904@gmail.com" >sachikapase1904@gmail.com</a></label>
+                <label>Message:</label>
+                <textarea rows="5" placeholder="Write your message..."></textarea>
+
+                <button type="submit">Send</button>
+
+            </form>
+        </section>
+    </div>
+    <footer>
+        ©Electrical Engineering Student Associated.
+    </footer>
+</body>
+</html>
+
